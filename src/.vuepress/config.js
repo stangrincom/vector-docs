@@ -11,7 +11,7 @@
 // }
 
 module.exports = {
-  base:'https://stangrincom.github.io/vector-docs',
+  base:'/vector-docs',
   themeConfig: {
     logo: '/assets/logo.jfif',
     sidebar: [
