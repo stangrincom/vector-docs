@@ -1,4 +1,5 @@
 module.exports = {
+  base:"https://stangrincom.github.io/vector-docs",
   themeConfig: {
     sidebar: [
       '/',
