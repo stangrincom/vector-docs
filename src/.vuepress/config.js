@@ -11,9 +11,9 @@
 // }
 
 module.exports = {
+  base:'https://stangrincom.github.io/vector-docs',
   themeConfig: {
     logo: '/assets/logo.jfif',
-    base:'https://stangrincom.github.io/vector-docs',
     sidebar: [
       {
         title: 'RESTful API',   // required
