@@ -1,15 +1,15 @@
 # Introduction
 
+All requset
 
-## Endpoints
+## Entpoints
 
 Base: `https://api.vektor-adv.com`
 
 **Token**
 | Method 	| Endpoint              	| Description                                         	|
 |--------	|-----------------------	|-----------------------------------------------------	|
-| POST   	| `/connect/token`       	| [get access token](/orders.md#create-order)           |
-
+| POST   	| `/connect/token`       	| [get access token](/token.md#get-token)               |
 
 **Orders**
 | Method 	| Endpoint              	| Description                                         	|
@@ -19,14 +19,13 @@ Base: `https://api.vektor-adv.com`
 | GET    	| `/orders/{id}`        	| [get order details ](/orders.md#get-order-details ) 	|
 | GET    	| `/orders/{id}/status` 	| [get order status ](/orders.md#get-orders )         	|
 
+
 **Certificates**
 | Method 	| Endpoint              	| Description                                         	|
 |--------	|-----------------------	|-----------------------------------------------------	|
-| GET    	| `/certificates/`       	| [get certificates](/certificates.md#get-certificates) |
-
+| GET   	| `/certificates`       	| [get certificates](/certificates.md#get-certificates) |
 
 **Balance**
-| Method 	| Endpoint              	| Description                                              |
-|--------	|-----------------------	|-----------------------------------------------------	   |
-| GET    	| `/balance/`       	    | [get current balance](/certificates.md#get-certificates) |
-
+| Method 	| Endpoint              	| Description                                         	|
+|--------	|-----------------------	|-----------------------------------------------------	|
+| GET   	| `/balance`       	      | [get current balance](/certificates.md#get-certificates) |

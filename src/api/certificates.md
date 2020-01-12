@@ -1,4 +1,4 @@
-# Get certificates
+# Certificates
 
 ### Request
  <b>Url:</b> https://api.vektor-adv.com/api/certificates <br>

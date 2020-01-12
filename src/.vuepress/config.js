@@ -1,45 +1,22 @@
-// module.exports = {
-
-//   themeConfig: {
-//     sidebarDepth: 2,
-//     sidebar: [
-//       '/',
-//       '/api/get-orders',
-//       ['/api/create-order', 'Explicit link text']
-//     ]
-//   }
-// }
 
 module.exports = {
-
+  dest: '../docs',
   themeConfig: {
-    logo: '/assets/logo.jfif',
+    logo: '/logo.jfif',
     sidebar: [
+      "/",
       {
-        title: 'RESTful API',   // required
-        collapsable: false, // optional, defaults to true
-        sidebarDepth: 2,    // optional, defaults to 1
+        title: 'API',
+        collapsable: false, 
+        path: '/api/token/',
+        sidebarDepth: 2,
         children: [
           {
-            title: "Auth",
             collapsable: false,
             children: [
-              '/api/auth/get-token'
-            ]
-          },
-          {
-            title: "Orders",
-            collapsable: false,
-            children: [
-              '/api/orders/create-order',
-              '/api/orders/get-orders',
-            ]
-          },
-          {
-            title: "Certificates",
-            collapsable: false,
-            children: [
-              '/api/certificates/get-certificates',
+              '/api/token',
+              '/api/orders',
+              '/api/certificates',
             ]
           }
         ]
