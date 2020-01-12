@@ -1,4 +1,19 @@
-
+---
+home: true
+heroImage: /hero.png
+heroText: Hero Title
+tagline: Hero subtitle
+actionText: Get Started →
+actionLink: /guide/
+features:
+- title: Simplicity First
+  details: Minimal setup with markdown-centered project structure helps you focus on writing.
+- title: Vue-Powered
+  details: Enjoy the dev experience of Vue + webpack, use Vue components in markdown, and develop custom themes with Vue.
+- title: Performant
+  details: VuePress generates pre-rendered static HTML for each page, and runs as an SPA once a page is loaded.
+footer: MIT Licensed | Copyright © 2018-present Evan You
+---
 
 # Get access token
 
@@ -31,7 +46,7 @@ grant_type: client_credentials
 <b>Status:</b> 200 (OK)
 
 ##### Example:
-````json
+````
 {
     "access_token": "eyJhbGciOiJSUzI1NiIsImtpZCI6IlJ2eURPZEF...",
     "expires_in": 3600,
@@ -41,7 +56,7 @@ grant_type: client_credentials
 ````
  #### Errors:
 <b>Status:</b> 400 (Bad request)
-````json
+````
 {
     "error": "invalid_request"
 }
@@ -67,7 +82,7 @@ grant_type: client_credentials
     - <b>certificates[0].quantity</b> <small>(int,required)</small>
  
  ##### Example:
- ````json
+ ````
 {
     "orderId": "B5AA69DF-61A5-4D97-B1FB-4F6772DFBBEB",
     "customer": {
@@ -96,7 +111,7 @@ grant_type: client_credentials
  #### Errors
  
  <b>Status:</b> 400 (Bad request)
- ````json
+ ````
 {
   "message": "Invalid request",
   "status": 400,
@@ -123,7 +138,7 @@ grant_type: client_credentials
   - <b>unit</b> <small>(string)</small> - nominal unit (ruble, month)
   - <b>value</b> <small>(decimal)</small> - nominal value
   - <b>price</b> <small>(decimal)</small>
- ````json
+ ````
 [
   {
     "id": "1C730E2D-2323-46B7-8204-DDC7200B4976",

@@ -1,5 +1,3 @@
-
-
 # Get access token
 
 ### Request
@@ -31,7 +29,7 @@ grant_type: client_credentials
 <b>Status:</b> 200 (OK)
 
 ##### Example:
-````json
+````
 {
     "access_token": "eyJhbGciOiJSUzI1NiIsImtpZCI6IlJ2eURPZEF...",
     "expires_in": 3600,
@@ -41,7 +39,7 @@ grant_type: client_credentials
 ````
  #### Errors:
 <b>Status:</b> 400 (Bad request)
-````json
+````
 {
     "error": "invalid_request"
 }
@@ -67,7 +65,7 @@ grant_type: client_credentials
     - <b>certificates[0].quantity</b> <small>(int,required)</small>
  
  ##### Example:
- ````json
+ ````
 {
     "orderId": "B5AA69DF-61A5-4D97-B1FB-4F6772DFBBEB",
     "customer": {
@@ -96,7 +94,7 @@ grant_type: client_credentials
  #### Errors
  
  <b>Status:</b> 400 (Bad request)
- ````json
+ ````
 {
   "message": "Invalid request",
   "status": 400,
@@ -123,7 +121,7 @@ grant_type: client_credentials
   - <b>unit</b> <small>(string)</small> - nominal unit (ruble, month)
   - <b>value</b> <small>(decimal)</small> - nominal value
   - <b>price</b> <small>(decimal)</small>
- ````json
+ ````
 [
   {
     "id": "1C730E2D-2323-46B7-8204-DDC7200B4976",
