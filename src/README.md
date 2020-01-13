@@ -14,7 +14,7 @@ Base: `https://api.vektor-adv.com/api`
 **Orders**
 | Method 	| Endpoint              	| Description                                         	|
 |--------	|-----------------------	|-----------------------------------------------------	|
-| POST   	| `/v1/ordes`              	| [create order ](api/orders.md#create-order )           	|
+| POST   	| `/v1/orders`              	| [create order ](api/orders.md#create-order )           	|
 | GET    	| `/v1/orders/`            	| [get orders ](api/orders.md#get-orders )               	|
 | GET    	| `/v1/orders/{id}`        	| [get order details ](api/orders.md#get-order-details ) 	|
 | GET    	| `/v1/orders/{id}/status` 	| [get order status ](api/orders.md#get-order-status )         	|
