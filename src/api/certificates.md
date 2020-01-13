@@ -1,6 +1,6 @@
 # Certificates
 
-## Get certifiactes
+## Get certificates
 * <b>URL</b>: `/v1/certificates`
 * <b>Method</b>: `GET`
 * <b>Headers:</b>
