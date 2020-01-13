@@ -6,7 +6,7 @@ module.exports = {
     sidebar: [
       "/",
       {
-        title: 'API',
+        title: 'API REFERENCE',
         collapsable: false, 
         path: '/api/token/',
         sidebarDepth: 2,
