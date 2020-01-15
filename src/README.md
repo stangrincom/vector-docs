@@ -9,11 +9,11 @@ You can get the client ID and secret credentials from the manager responsible fo
 
  
  ::: tip Base endpoint for <b>test</b> environments
-  `https://test-api.vektor-adv.com/api`
+  `https://test-api.vektor-adv.com`
  :::
 
  ::: warning Base endpoint for <b>production</b> environments
-  `https://api.vektor-adv.com/api`
+  `https://api.vektor-adv.com`
  :::
 
 **Token**
