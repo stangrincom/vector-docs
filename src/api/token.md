@@ -10,11 +10,11 @@
 * <b>type</b>: `form-data`
 
 #### Body
-| Field 	| Type              	| Description                                         	|
-|--------	|-----------------------	|-----------------------------------------------------	|
-| client_id   	| `string`       	      | your client id |
-| client_secret   	| `string`       	      | your client secret |
-| grant_type   	| `string`       	      | must be `client_credentials` |
+| Field 	    | Type                  	| Description                                         	|
+|--------	    |-----------------------	|-----------------------------------------------------	|
+| client_id   	| `string`       	        | your client id |
+| client_secret | `string`       	        | your client secret |
+| grant_type   	| `string`       	        | must be `client_credentials` |
 
 #### Example:
 ````html
@@ -30,12 +30,12 @@ grant_type: client_credentials
 * <b>type</b>: `json`
 
 #### Body
-| Field 	| Type              	| Description                                         	|
-|--------	|-----------------------	|-----------------------------------------------------	|
-| access_token   	| `string`       	      | your acceess token |
-| expires_in   	| `number`       	      | time live token in second |
-| token_type   	| `string`       	      | - |
-| scope   	| `string`       	      | - |
+| Field     	| Type                  	| Description                                         	|
+|--------	    |-----------------------	|-----------------------------------------------------	|
+| access_token  | `string`       	        | your acceess token |
+| expires_in   	| `number`       	        | time live token in second |
+| token_type   	| `string`       	        | - |
+| scope      	| `string`       	        | - |
 
 ##### Example:
 ````json

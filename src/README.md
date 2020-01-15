@@ -19,7 +19,7 @@ You can get the client ID and secret credentials from the manager responsible fo
 **Token**
 | Method 	| Endpoint              	| Description                                         	   |
 |--------	|-----------------------	|-----------------------------------------------------     |
-| POST   	| `/v1/connect/token`       | [get access token](api/token.md#get-access-token)        |
+| POST   	| `/connect/token`       | [get access token](api/token.md#get-access-token)        |
 
 
 **Orders**

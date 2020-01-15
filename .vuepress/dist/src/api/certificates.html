@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Certificates</title>
+    <meta name="description" content="">
+    
+    
+    <link rel="preload" href="/assets/css/0.styles.f69a7d54.css" as="style"><link rel="preload" href="/assets/js/app.ff9980c5.js" as="script"><link rel="preload" href="/assets/js/2.30f0e737.js" as="script"><link rel="preload" href="/assets/js/7.10303d6c.js" as="script"><link rel="prefetch" href="/assets/js/10.bb334663.js"><link rel="prefetch" href="/assets/js/3.87c71800.js"><link rel="prefetch" href="/assets/js/4.6aec08c3.js"><link rel="prefetch" href="/assets/js/5.93f03e78.js"><link rel="prefetch" href="/assets/js/6.bcfb293e.js"><link rel="prefetch" href="/assets/js/8.714c8b62.js"><link rel="prefetch" href="/assets/js/9.63cfb113.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.f69a7d54.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container no-sidebar"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <!----></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><!---->  <!----> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="certificates"><a href="#certificates" class="header-anchor">#</a> Certificates</h1> <h2 id="get-certificates"><a href="#get-certificates" class="header-anchor">#</a> Get certificates</h2> <ul><li><b>URL</b>: <code>/v1/certificates</code></li> <li><b>Method</b>: <code>GET</code></li> <li><b>Headers:</b> <ul><li>Authorization: Bearer [YOUR_ACCESS_TOKEN] <code>required</code></li> <li>Content-Type: application/json</li></ul></li></ul> <h3 id="response"><a href="#response" class="header-anchor">#</a> Response</h3> <hr> <ul><li><b>Status</b>: 200 OK</li> <li><b>Type</b>: <code>json</code></li></ul> <h4 id="response-body"><a href="#response-body" class="header-anchor">#</a> Response body</h4> <table><thead><tr><th>Field</th> <th>Type</th> <th>Description</th></tr></thead> <tbody><tr><td>id</td> <td><code>uuid</code></td> <td>-</td></tr> <tr><td>vendor</td> <td><code>string</code></td> <td>Name vendor certificate</td></tr> <tr><td>unit</td> <td><code>enum</code></td> <td>nominal unit (ruble, month)</td></tr> <tr><td>value</td> <td><code>decimal</code></td> <td>nominal value</td></tr> <tr><td>price</td> <td><code>decimal</code></td> <td>-</td></tr></tbody></table> <h4 id="example"><a href="#example" class="header-anchor">#</a> Example</h4> <div class="language-json extra-class"><pre class="language-json"><code><span class="token punctuation">[</span>
+ <span class="token punctuation">{</span>
+   <span class="token property">&quot;id&quot;</span><span class="token operator">:</span> <span class="token string">&quot;1C730E2D-2323-46B7-8204-DDC7200B4976&quot;</span><span class="token punctuation">,</span>
+   <span class="token property">&quot;vendor&quot;</span><span class="token operator">:</span> <span class="token string">&quot;Хофф&quot;</span><span class="token punctuation">,</span>
+   <span class="token property">&quot;unit&quot;</span><span class="token operator">:</span> <span class="token string">&quot;rub&quot;</span><span class="token punctuation">,</span>
+   <span class="token property">&quot;value&quot;</span><span class="token operator">:</span> <span class="token number">1000</span><span class="token punctuation">,</span>
+   <span class="token property">&quot;price&quot;</span><span class="token operator">:</span> <span class="token number">1100</span>
+ <span class="token punctuation">}</span><span class="token punctuation">,</span>
+ <span class="token punctuation">{</span>
+   <span class="token property">&quot;id&quot;</span><span class="token operator">:</span> <span class="token string">&quot;0B6D23C8-9019-41DA-A34D-1A12B038742D&quot;</span><span class="token punctuation">,</span>
+   <span class="token property">&quot;vendor&quot;</span><span class="token operator">:</span> <span class="token string">&quot;Л'Этуаль&quot;</span><span class="token punctuation">,</span>
+   <span class="token property">&quot;unit&quot;</span><span class="token operator">:</span> <span class="token string">&quot;month&quot;</span><span class="token punctuation">,</span>
+   <span class="token property">&quot;value&quot;</span><span class="token operator">:</span> <span class="token number">1</span><span class="token punctuation">,</span>
+   <span class="token property">&quot;price&quot;</span><span class="token operator">:</span> <span class="token number">500</span>
+ <span class="token punctuation">}</span>
+<span class="token punctuation">]</span>
+</code></pre></div></div> <footer class="page-edit"><!----> <!----></footer> <!----> </main></div><div class="global-ui"></div></div>
+    <script src="/assets/js/app.ff9980c5.js" defer></script><script src="/assets/js/2.30f0e737.js" defer></script><script src="/assets/js/7.10303d6c.js" defer></script>
+  </body>
+</html>

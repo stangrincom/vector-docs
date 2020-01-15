@@ -14,12 +14,12 @@
 * <b>Type</b>: `json`
 
 #### Response body
-| Field 	| Type              	| Description                                         	|
-|--------	|-----------------------	|-----------------------------------------------------	|
-| id   	| `uuid`       	      | - |
-| vendor   	| `string`       	      | Name vendor certificate |
-| unit   	| `enum`       	      | nominal unit (ruble, month) |
-| value   	|  `decimal`     	      |  nominal value |
+| Field 	  | Type              	    | Description                                         	|
+|--------	  |-----------------------	|-----------------------------------------------------	|
+| id      	| `uuid`       	          | - |
+| vendor   	| `string`       	        | Name vendor certificate |
+| unit    	| `enum`       	          | nominal unit (ruble, month) |
+| value   	|  `decimal`     	        |  nominal value |
 | price   	| `decimal`       	      | - |
 
 #### Example

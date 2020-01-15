@@ -18,6 +18,7 @@ module.exports = {
               '/api/orders',
               '/api/certificates',
               '/api/balance',
+              '/api/hide'
             ]
           }
         ]
