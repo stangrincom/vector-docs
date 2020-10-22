@@ -19,16 +19,46 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1c4c6850-5cbd-4d4f-afcd-94aa139bdfdc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+    <list default="true" id="1c4c6850-5cbd-4d4f-afcd-94aa139bdfdc" name="Default Changelist" comment="save">
+      <change afterPath="$PROJECT_DIR$/src/.vuepress/dist/404.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/.vuepress/dist/CNAME" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/.vuepress/dist/api/balance.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/.vuepress/dist/api/ecards.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/.vuepress/dist/assets/css/0.styles.8a4437e9.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/.vuepress/dist/assets/js/10.a45619de.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/.vuepress/dist/assets/js/11.61737909.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/.vuepress/dist/assets/js/2.f280f4db.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/.vuepress/dist/assets/js/3.4d05eb6f.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/.vuepress/dist/assets/js/4.6fd1ef01.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/.vuepress/dist/assets/js/5.da37f56e.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/.vuepress/dist/assets/js/6.d09cb291.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/.vuepress/dist/assets/js/7.94757fef.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/.vuepress/dist/assets/js/8.3f55a2e9.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/.vuepress/dist/assets/js/9.31bd2f47.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/.vuepress/dist/assets/js/app.a50fee55.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/.vuepress/dist/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/assets/js/app.580181b8.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/js/app.580181b8.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/404.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/CNAME" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/api/balance.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/api/certificates.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/api/orders.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/.vuepress/dist/api/orders.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/api/token.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/.vuepress/dist/api/token.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/assets/css/0.styles.433cb2f9.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/assets/img/search.83621669.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/.vuepress/dist/assets/img/search.83621669.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/assets/js/10.c9edc631.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/assets/js/2.15424885.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/assets/js/3.b11b4c88.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/assets/js/4.f58f7752.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/assets/js/5.371d606f.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/assets/js/6.5cdbf54a.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/assets/js/7.b588d47e.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/assets/js/8.6c8e6cdb.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/assets/js/9.440c83cb.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/assets/js/app.580181b8.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/logo.jfif" beforeDir="false" afterPath="$PROJECT_DIR$/src/.vuepress/dist/logo.jfif" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/.vuepress/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/.vuepress/config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/api/certificates.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/ecards.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/api/orders.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/orders.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,8 +106,16 @@
       <workItem from="1578990111505" duration="4000" />
       <workItem from="1603356637870" duration="320000" />
       <workItem from="1603357142261" duration="2000" />
-      <workItem from="1603357433178" duration="1859000" />
+      <workItem from="1603357433178" duration="2249000" />
     </task>
+    <task id="LOCAL-00001" summary="save">
+      <created>1603359383088</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1603359383088</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -97,23 +135,29 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="save" />
+    <option name="LAST_COMMIT_MESSAGE" value="save" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1685" height="242" key="GridCell.Tab.0.bottom" timestamp="1603357498211">
+    <state width="1685" height="242" key="GridCell.Tab.0.bottom" timestamp="1603359701872">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
-    <state width="1685" height="242" key="GridCell.Tab.0.bottom/0.0.1707.920/2560.-372.1920.1040@0.0.1707.920" timestamp="1603357498211" />
-    <state width="1685" height="242" key="GridCell.Tab.0.center" timestamp="1603357498210">
+    <state width="1685" height="242" key="GridCell.Tab.0.bottom/0.0.1707.920/2560.-372.1920.1040@0.0.1707.920" timestamp="1603359701872" />
+    <state width="1685" height="242" key="GridCell.Tab.0.center" timestamp="1603359701872">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
-    <state width="1685" height="242" key="GridCell.Tab.0.center/0.0.1707.920/2560.-372.1920.1040@0.0.1707.920" timestamp="1603357498210" />
-    <state width="1685" height="242" key="GridCell.Tab.0.left" timestamp="1603357498210">
+    <state width="1685" height="242" key="GridCell.Tab.0.center/0.0.1707.920/2560.-372.1920.1040@0.0.1707.920" timestamp="1603359701872" />
+    <state width="1685" height="242" key="GridCell.Tab.0.left" timestamp="1603359701872">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
-    <state width="1685" height="242" key="GridCell.Tab.0.left/0.0.1707.920/2560.-372.1920.1040@0.0.1707.920" timestamp="1603357498210" />
-    <state width="1685" height="242" key="GridCell.Tab.0.right" timestamp="1603357498210">
+    <state width="1685" height="242" key="GridCell.Tab.0.left/0.0.1707.920/2560.-372.1920.1040@0.0.1707.920" timestamp="1603359701872" />
+    <state width="1685" height="242" key="GridCell.Tab.0.right" timestamp="1603359701872">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
-    <state width="1685" height="242" key="GridCell.Tab.0.right/0.0.1707.920/2560.-372.1920.1040@0.0.1707.920" timestamp="1603357498210" />
+    <state width="1685" height="242" key="GridCell.Tab.0.right/0.0.1707.920/2560.-372.1920.1040@0.0.1707.920" timestamp="1603359701872" />
+    <state x="446" y="194" key="Vcs.Push.Dialog.v2" timestamp="1603359384358">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state x="446" y="194" key="Vcs.Push.Dialog.v2/0.0.1707.920/2560.-372.1920.1040@0.0.1707.920" timestamp="1603359384358" />
   </component>
 </project>

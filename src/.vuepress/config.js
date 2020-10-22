@@ -1,6 +1,6 @@
 
 module.exports = {
-  dest: '../docs',
+
   themeConfig: {
     logo: '/logo.jfif',
     sidebar: [
