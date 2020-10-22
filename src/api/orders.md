@@ -19,7 +19,7 @@
 #### Query parametrs
 | Parametr | Type	|   Description                               	|
 |--------	 | -----      | -----------------------------------------------------	|
-| page   	 | integer |    The page number to be retrieved, for the list of items. So, a page=1 returns the first 20 orders. A page=2 returns the next 20 orders. |
+| page   	 | `int32`  |    The page number to be retrieved, for the list of items. So, a page=1 returns the first 20 orders. A page=2 returns the next 20 orders. |
 
 #### Example
 `/order?page=1`
@@ -33,20 +33,20 @@
 #### Body
 | Field 	| Type              	| Description                                         	|
 |--------	|-----------------------	|-----------------------------------------------------	|
-| data   	| `array`    	      |  (contains the [ orders ](#order )   )  |
-| totalPages   	| `int`       	      | The total number of pages that are available for the search criteria. Clients MUST NOT assume that the value of totalPages is constant. The value MAY change from one request to the next|
-| currentPage   	| `int`       	      | - |
-| pageSize   	| `int`       	      | The maximum number of orders to return in the response. This constant equals 20 |
+| orders   	| `array`    	      |  (contains the [ orders ](#order )   )  |
+| totalPages   	| `int32`       	      | The total number of pages that are available for the search criteria. Clients MUST NOT assume that the value of totalPages is constant. The value MAY change from one request to the next|
+| currentPage   	| `int32`       	      | - |
+| pageSize   	| `int32`       	      | The maximum number of orders to return in the response. This constant equals 20 |
 
 
 ##### Order
 | Field 	| Type              	| Description                                         	|
 |--------	|-----------------------	|-----------------------------------------------------	|
 | id   	| `uuid`       	      | - |
-| number   	| `int`       	      | - |
+| number   	| `int32`       	      | - |
 | createdDate   	| `DateTime`       	      | - |
 | status   	|  `enum`     	      |  [ order statuses ](#order-statuses) |
-| customerEmail   	| `string`       	      | - |
+| participantLogin   	| `string`       	      | - |
 | total   	| `decimal`       	      | - |
 
 ##### Example:
@@ -59,7 +59,7 @@
       "number": 3048,
       "createdDate": "2020-01-11T16:13:56.814239",
       "status": "Created",
-      "customerEmail": "sss@ss.ss",
+      "participantLogin": "sss@ss.ss_company",
       "total": 2200
     },
     {
@@ -67,8 +67,8 @@
       "number": 3047,
       "createdDate": "2020-01-11T15:58:05.816375",
       "status": "Created",
-      "customerEmail": "sss@ss.ss",
-      "total": 0
+      "participantLogin": "sss@ss.ss_company",
+      "total": 1000
     }
   ],
   "totalPages": 1,
@@ -94,41 +94,43 @@
 | Field 	| Type              	| Description                                         	|
 |--------	|-----------------------	|-----------------------------------------------------	|
 | orderId   	| `uuid`       	      |  Required. Generate on client side
-| customer   	| `object`  [ Customer ](#customer )       	      | - |
-| certificates   	| `array`     [ Certificate ](#certificate )     	      | - |
+| participant   	| `object`  [ Participant ](#participant )       	      | Required. |
+| ecards   	| `array`     [ ECard ](#ecard )     	      | Required. |
 
-##### Customer
+##### Participant
 | Field 	| Type              	| Description                                         	|
 |--------	|-----------------------	|-----------------------------------------------------	|
-| customer.email   	| `string`       	      | Required |
-| customer.name   	| `string`       	      |  - |
-| customer.phone   	| `string`       	      | - |
+| participant.email   	| `string`       	      | Required |
+| participant.name   	| `string`       	      |  Required |
+| participant.phone   	| `string`       	      | Required |
 
-##### Certificate
+##### ECard
 | Field 	| Type              	| Description                                         	|
 |--------	|-----------------------	|-----------------------------------------------------	|
-| id   	| `uuid`       	      | - |
-| quantity   	| `int`       	      | - |
-
+| id   	| `int32`       	      | Required |
+| quantity   	| `int32`       	      | Required|
+| faceValue   	| `string`       	      | Required|
 
 
  ##### Example:
  ````json
 {
     "orderId": "B5AA69DF-61A5-4D97-B1FB-4F6772DFBBEB",
-    "customer": {
+    "participant": {
         "email": "test@test.test",
         "phone": "79251153242",         
-        "name": "John Doe",
+        "name": "John Doe"
     },
-    "certificates": [
+    "ecards": [
         {
-            "id": "A25714EA-F9E6-4D53-94FC-6F9D0587BB9D",
-            "quantity": 1
+            "id": "1",
+            "quantity": 1,
+            "faceValue": "100 ₽"
         },
         {
-            "id": "53AF1480-1D33-41CA-A08E-0BDC4BD318D6",
-            "quantity": 1
+            "id": "2",
+            "quantity": 4,
+            "faceValue": "500 ₽"
         }
     ]
 }

@@ -1,9 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="1c4c6850-5cbd-4d4f-afcd-94aa139bdfdc" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/api/certificates.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/certificates.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/api/token.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/token.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/assets/js/app.580181b8.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/js/app.580181b8.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/.vuepress/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/.vuepress/config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/certificates.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/ecards.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/orders.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/orders.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,28 +39,29 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1WLxATZrHVhiq7BtA7kPUFNbR7k" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="ServiceViewManager">
-    <option name="viewStates">
-      <list>
-        <serviceView>
-          <treeState>
-            <expand />
-            <select />
-          </treeState>
-        </serviceView>
-      </list>
-    </option>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\stan\code\GitHub\vector-docs" />
+    </key>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -48,16 +74,46 @@
       <updated>1578942532594</updated>
       <workItem from="1578942535555" duration="102000" />
       <workItem from="1578990111505" duration="4000" />
+      <workItem from="1603356637870" duration="320000" />
+      <workItem from="1603357142261" duration="2000" />
+      <workItem from="1603357433178" duration="1859000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="717" y="191" width="1037" height="812" key="CommitChangelistDialog2" timestamp="1582027925926">
-      <screen x="0" y="0" width="2194" height="1194" />
+    <state width="1685" height="242" key="GridCell.Tab.0.bottom" timestamp="1603357498211">
+      <screen x="0" y="0" width="1707" height="920" />
     </state>
-    <state x="717" y="191" width="1037" height="812" key="CommitChangelistDialog2/-1920.204.1920.1010/0.0.2194.1194@0.0.2194.1194" timestamp="1582027925926" />
+    <state width="1685" height="242" key="GridCell.Tab.0.bottom/0.0.1707.920/2560.-372.1920.1040@0.0.1707.920" timestamp="1603357498211" />
+    <state width="1685" height="242" key="GridCell.Tab.0.center" timestamp="1603357498210">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state width="1685" height="242" key="GridCell.Tab.0.center/0.0.1707.920/2560.-372.1920.1040@0.0.1707.920" timestamp="1603357498210" />
+    <state width="1685" height="242" key="GridCell.Tab.0.left" timestamp="1603357498210">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state width="1685" height="242" key="GridCell.Tab.0.left/0.0.1707.920/2560.-372.1920.1040@0.0.1707.920" timestamp="1603357498210" />
+    <state width="1685" height="242" key="GridCell.Tab.0.right" timestamp="1603357498210">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state width="1685" height="242" key="GridCell.Tab.0.right/0.0.1707.920/2560.-372.1920.1040@0.0.1707.920" timestamp="1603357498210" />
   </component>
 </project>

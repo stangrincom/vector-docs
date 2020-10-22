@@ -9,11 +9,11 @@ You can get the client ID and secret credentials from the manager responsible fo
 
  
  ::: tip Base endpoint for <b>test</b> environments
-  `https://test-api.vektor-adv.com`
+  `https://test-api.vektor-adv.ru`
  :::
 
  ::: warning Base endpoint for <b>production</b> environments
-  `https://api.vektor-adv.com`
+  `https://api.vektor-adv.ru`
  :::
 
 **Token**
@@ -33,7 +33,7 @@ You can get the client ID and secret credentials from the manager responsible fo
 **Certificates**
 | Method 	| Endpoint              	| Description                                               |
 |--------	|-----------------------	|-----------------------------------------------------	    |
-| GET    	| `/v1/certificates/`       | [get certificates](api/certificates.md#get-certificates)  |
+| GET    	| `/v1/ecards/`       | [get certificates](api/ecards.md#get-ecards)  |
 
 
 **Balance**

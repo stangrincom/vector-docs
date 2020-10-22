@@ -16,7 +16,7 @@ module.exports = {
             children: [
               '/api/token',
               '/api/orders',
-              '/api/certificates',
+              '/api/ecards',
               '/api/balance'
             ]
           }
