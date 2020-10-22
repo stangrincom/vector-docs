@@ -5,8 +5,9 @@
 * <b>Payed</b>
 * <b>ReadyForDelivery</b>
 * <b>PartiallyDelivered</b>
+* <b>AwaitingCertificateAssignment</b>
 * <b>Delivered</b> - final status
-* <b>Canceled</b> - final status
+* <b>Cancelled</b> - final status
 
 ## Get orders
 
